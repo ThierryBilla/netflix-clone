@@ -1,0 +1,121 @@
+
+body {
+    background-color: var(--netflix-black);
+    color: var(--netflix-white);
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  
+  :root {
+    --netflix-black: #141414;
+    --netflix-dark-grey: #181818;
+    --netflix-red: #E50914;
+    --netflix-white: #FFFFFF;
+  }
+  
+  
+  .header {
+    background-color: var(--netflix-dark-grey);
+    padding: 10px 50px;  
+  }
+  
+  /* Style principal de la page de détails */
+  .movie-details-page {
+    position: relative;
+    width: 100%;
+    height: 70vh; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movie-details-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* dark filter */
+  }
+  
+  .movie-details-page-content {
+    z-index: 2; /* Increase text visibility */
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .movie-details-page-content h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details-page-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details-page-content button {
+    font-size: 1.2rem;
+    background-color: var(--netflix-red);
+    color: var(--netflix-white);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .movie-details-page-content button:hover {
+    background-color: var(--netflix-white);
+    color: var(--netflix-red);
+  }
+  
+/* Section des films similaires */
+.similar-movies-section {
+    padding: 40px 50px;
+    background-color: var(--netflix-dark-grey);
+    color: var(--netflix-white);
+    
+  }
+  
+  .similar-movies-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: inherit;
+    
+  }
+  
+  .similar-movies-container {
+    
+    display: flex;
+    overflow: visible;
+    padding: 20px 0;
+  }
+  
+  .similar-movie {
+    flex: 0 0 120px; 
+    margin-right: 25px; 
+    position: relative;
+    overflow: visible;
+    transition: transform 0.3s ease, z-index 0s;
+  }
+  
+  .similar-movie img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-origin: center center; 
+  }
+  
+  .similar-movie:hover {
+    transform: scale(1.04); 
+    z-index: 999;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+
