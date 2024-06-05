@@ -1,5 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/1m0GZtb0)
-## 🎬 THE JOHNFLIX CHALLENGE 
+## 🎬 Netflix clone
+
+Welcome to my Netflix Clone project! This project is a showcase of my skills in web development using React JS, React Context API, React Router, and CSS. In this project, I aimed to replicate the core functionalities and design of the Netflix website,
 
 <div>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="react" width="80"/>
@@ -25,23 +26,14 @@
 
 ### 1. Description:
 
-This challenge consists in creating a clone of the Netflix website.
+The Netflix Clone project is a challenge I undertook to enhance my proficiency in React JS and web development in general. I followed specific guidelines provided by my instructor, which included creating various pages such as Home, Movie Detail, Login, Register, and Not Found. Additionally, I integrated functionalities like user authentication, a search bar, and fetching movie data from The Movie Database API.
 
-It's now the time to show your skills and creativity using React JS, React Context API, React router, some CSS (with tailwind if you want) and a movie API like https://developer.themoviedb.org/.
-
-So let's get started!
-
-- Time to complete: 4 days
-
-- Delivery: A link to the deployed project (Netlify, gh-pages, Heroku, etc.)
-
-
-### 2. Specs (features) :
+### 2. Features :
 
 #### Pages: 
 Home, Movie detail, Login, Register, Not found
 
-#### Page home: (it can be adapted for the list parts)
+#### Page home:
     * Header with logo and navigation links (TV Shows, Movies, News & Popular, My List)
     * Hero section with a background image and a call to action button
     * List of categories (Netflix originals, Top rated, Popular now, etc.)
@@ -66,34 +58,16 @@ Home, Movie detail, Login, Register, Not found
    
 ### 3. API:
 
-You can use the API https://developer.themoviedb.org/docs to get the movies and series data. 
-Any movie API is also valid. 
+https://developer.themoviedb.org/docs to get the movies and series data. 
 
-### 4. Design:
 
-You can use the Netflix website as a reference, but you can also create your own design.
-
-### 5. Evaluation criteria:
+### 5. Installation
     
-    * Code quality
-    * Creativity
-    * Responsiveness
-    * Use of the API
-    * Use of React Context API
-    * Use of React router
-    * Use of CSS (tailwind is a plus)
-    * Deployed project
-    * Don't forget to add a README.md file with the project description and the link to the deployed project.
+To run this project locally, follow these steps:
 
-### 6. Bonus:
-
-    * Search bar
-    * User authentication
-    * Cool animations
-    * Filter by category
-    * The 'who is watching' modal at the beginning
-    * And any other feature you think is cool
-
-### 7. Good luck! 
+* Clone the repository to your local machine.
+* Navigate to the project directory.
+* Run npm install to install the dependencies.
+* Run npm run dev to start the development server.
 
 
